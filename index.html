@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>탑청소 | 입주청소 전문업체</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #007acc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://source.unsplash.com/featured/?cleaning');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #007acc;
+    }
+    .services, .reviews {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .buttons {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 25px;
+      background: #007acc;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #eee;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>탑청소</h1>
+    <nav>
+      <a href="#services">서비스 안내</a>
+      <a href="#reviews">고객 후기</a>
+      <a href="#contact">견적 문의</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>입주청소 · 이사청소 · 수도권 전지역</h2>
+  </div>
+
+  <section class="section" id="services">
+    <h2>서비스 안내</h2>
+    <div class="services">
+      <div class="card">
+        <h3>입주청소</h3>
+        <p>신축/이사 전 완벽한 청소 서비스 제공</p>
+      </div>
+      <div class="card">
+        <h3>이사청소</h3>
+        <p>기존 세입자/입주자 이사 전후 전문 청소</p>
+      </div>
+      <div class="card">
+        <h3>특수청소</h3>
+        <p>곰팡이, 찌든때, 유해물질 등 전문 처리</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="reviews">
+    <h2>고객 후기</h2>
+    <div class="reviews">
+      <div class="card">
+        <p>"깔끔하게 청소해주셔서 기분 좋게 입주했어요!"</p>
+      </div>
+      <div class="card">
+        <p>"상담부터 작업까지 친절하고 꼼꼼했어요."</p>
+      </div>
+      <div class="card">
+        <p>"다음에도 꼭 여기서 청소 맡길게요~"</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>견적 문의</h2>
+    <div class="buttons">
+      <a href="tel:010-7401-59860">📞 전화문의</a>
+      <a href="#" onclick="alert('카카오톡 채널 준비 중입니다');">💬 카카오톡</a>
+      <a href="#" onclick="alert('네이버 톡톡 링크는 추후 추가됩니다');">🟢 네이버 톡톡</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>탑청소 | 서울 · 인천 · 경기 전지역 입주청소 전문업체</p>
+    <p>상호: 탑청소 | 사업자등록번호: 270-08-03427</p>
+    <p>전화: 010-7401-5986</p>
+  </footer>
+
+</body>
+</html>
